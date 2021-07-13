@@ -2,11 +2,11 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: Keep Theme
-  author: Keep Team
-  url: https://keep.xpoet.cn/
+  title: TZ Blog
+  author: TZ
+  url: https://fourclawercats.github.io/
   # Logo image (You can use local image, image external link or don’t fill)
-  logo_img:
+  # logo_img:
 
 
 # ---------------------------------------------------------------------------------------
@@ -17,10 +17,10 @@ style:
   primary_color: '#0066CC'
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.svg
+  avatar: /images/cat_logo.svg
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/logo.svg
+  favicon: /images/cat.svg
 
   # Article image align position, value: left | center
   article_img_align: left
@@ -38,32 +38,32 @@ style:
 
   # First screen
   first_screen:
-    enable: false
+    enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
     description: Keep writing and Keep loving.
 
   # Scroll style settings
   scroll:
     progress_bar:
-      enable: false
+      enable: true
     percent:
-      enable: false
+      enable: true
 
 
 # ---------------------------------------------------------------------------------------
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false
+  enable: true
   links:
-    github:          # your GitHub URL
+    github:          https://github.com/FourClawerCats
     weixin:          # your WeChat QR-Code URL
     qq:              # your QQ QR-Code URL
     weibo:           # your WeiBo URL
     zhihu:           # your ZhiHu URL
     twitter:         # your twitter URL
     facebook:        # your facebook URL
-    email:           # your email
+    email:           bluegreay@gmail.com
 
 
 # ---------------------------------------------------------------------------------------
@@ -71,9 +71,9 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 menu:
   Home: /
-  Archives: /archives
+  # Archives: /archives
   # Categories: /categories
-  # Tags: /tags
+  Tags: /tags
   # Links: /links
   # About: /about
   # Changelog: /changelog
@@ -100,9 +100,9 @@ post:
   # Dependencies: hexo-wordcount (npm install hexo-wordcount)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    enable: false
-    wordcount: false  # word count, one article
-    min2read: false   # time to read, one article
+    enable: true
+    wordcount: true  # word count, one article
+    min2read: true   # time to read, one article
 
   # Author label
   author_label:
@@ -117,23 +117,23 @@ post:
 # ---------------------------------------------------------------------------------------
 code_copy:
   enable: false
-  style: default        # values: default | mac
+  style: mac        # values: default | mac
 
 
 # ---------------------------------------------------------------------------------------
 # Table of Contents in the Sidebar
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false
+  expand_all: true
 
   # If true, open TOC every time when you enter the article page
-  init_open: false
+  init_open: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -208,21 +208,21 @@ rss:
 # Lazyload image
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
 # CDN
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
 # PJAX
 # ---------------------------------------------------------------------------------------
 pjax:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
